@@ -1,6 +1,6 @@
 function solution(s) {
-    return s.split(" ").map(v => {
-        if(v === "") return v
-        return v[0].toUpperCase() + v.slice(1).toLowerCase();
+    return s.split(" ").map(e => {
+        if(e === "") return e;    
+        return e[0].toUpperCase() + e.slice(1).toLowerCase();
     }).join(" ");
 }
